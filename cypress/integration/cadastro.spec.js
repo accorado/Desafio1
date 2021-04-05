@@ -6,7 +6,6 @@ let chance = new Chance();
 
 context('Cadastro', () => {
     it('cadastro de usuário no site', () => {
-
               
     //Base Url + index.php
         cy.visit('index.php');
@@ -29,6 +28,9 @@ context('Cadastro', () => {
     //mostrando o assert no teste
         cy.url().should('contain', 'index.php?controller=authentication&back=my-account#account-creation');
 
+       
+      // preenchendo os dados  
+        
        
 
     });

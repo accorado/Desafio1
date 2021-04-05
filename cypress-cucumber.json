@@ -1,7 +1,7 @@
 {   "baseUrl":"http://automationpractice.com",
     "experimentalSourceRewriting": true,
     "watchForFileChanges":false, 
-    "testFiles":"**/*.{feature,features}"
+    "testFiles":"**/*.feature"
 }
 
 

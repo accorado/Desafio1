@@ -25,4 +25,12 @@ When(/^salvar$/, () => {
 
 Then(/^devo ir para a página de cadastro$/, () => {
     cy.url().should('contain', 'index.php?controller=authentication&back=my-account#account-creation');
+
+  // preenchendo os dados  
+
+  
+
+
+
+
  });

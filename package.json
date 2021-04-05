@@ -14,7 +14,7 @@
     "report:merge": "mochawesome-merge > full_report.json",
     "report:mocha": "marge full_report.json",
     "report:clean": "rimraf mochawesome-report cypress/reports/cucumber-json/**"
-    },
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
